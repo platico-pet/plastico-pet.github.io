@@ -1,0 +1,132 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff8e8e;
+}
+
+header {
+    background-color: #b20000;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-icons a {
+    margin-left: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-icons a:hover {
+    color: #ff7f50;
+}
+
+nav.secondary-nav {
+    background-color: #cf0000;
+    padding: 10px 20px;
+}
+
+nav.secondary-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 300px;
+    display: flex;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.secondary-nav ul li {
+    display: inline;
+	
+}
+
+nav.secondary-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+nav.secondary-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    max-width: 1600px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background-color: #ffcccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1 {
+    color: #ad0000;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Contenido principal */
+.contenido {
+    padding: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: coral;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
